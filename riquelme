@@ -1,0 +1,55 @@
+class vehiculo:
+  def varios_valores(self,patente,marca,precio,multas):
+    self.patente=patente
+    self.marca=marca
+    self.precio=precio
+    self_multas=multas
+    def validar_patente(self)
+    if len(self.patente) == 6 and self.patente.numpy():
+      return true
+      else:
+        return False
+
+  def validar_marca(self):
+    if 2 <=len(self.marca) >= 15:
+      return true
+      else:
+        return false 
+
+  def validar_precio(self):
+    if self.precio > 5000000:
+      return True
+      else:
+        return false
+      
+    if vehiculo.validar_patente() and vehiculo.validar_marca() and vehiculo.validar_precio():
+      print("datos del vehiculo validos")
+      else:
+        print("datos de vehiculos invalidos")
+
+      patente_buscar =input("ingrese la patente del vehiculo a buscar")
+
+print("informacion del vehiculo encontrado:")
+print("marca:", vehiculo.marca)
+print("patente:;", vehiculo.patente)
+print("precio:", vehiculo.precio)
+print("multa:", vehiculo.multa)
+
+
+nombre_certificado = "certificado de emision de contaminantes"
+patente_auto = "abc123"
+datos_dueño = "pedro riquelme"
+emision_contaminantes = random.randint(1500,3500)
+
+print("nombre_certificado")
+print("patente del auto:",patente_auto)
+print("datos del dueño:", datos_dueño)
+print("emision de contaminantes:", emision_contaminantes)
+print("multa:", multa)
+   
+
+import sys 
+nombre ="pedro riquelme"
+version = "1.0"
+print(f"bienvenido (a) {nombre} - version {version}")
+sys.exit("saliendo del progama...")
